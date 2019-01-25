@@ -1,4 +1,4 @@
-FROM msaidf/R4-github
+FROM msaidf/r4-github
 MAINTAINER "Muhamad Said Fathurrohman" muh.said@gmail.com
 
 RUN install2.r data.world blscrapeR pollstR countrycode WDI wbstats eurostat OECD pdfetch psData tidycensus IMFData LabourMarketAreas 
